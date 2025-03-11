@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - bojjaganapaa</title>
+    <link rel="stylesheet" href="styles\productpage.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/ganesh.jpeg" alt="Logo">
+            <span>bojjaganapaa</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="productpage.html">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+        </div>
+    </header>
+    <!-- Product Listing Section -->
+    <section class="product-listing">
+        <h2>Our Products</h2>
+        
+        <!-- Filters -->
+        <div class="filters">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="pickles">Non-Pickles</option>
+                <option value="vegetables">Veg Pickles</option>
+                <option value="vegetables">Powders</option>
+                <option value="vegetables">others</option>
+            </select>
+
+            <select id="sort-filter">
+                <option value="price-low-high">Price: Low to High</option>
+                <option value="price-high-low">Price: High to Low</option>
+            </select>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="products-grid">
+            <div class="product">
+                <img src="images/aavakaya.png" alt="Aavakaya">
+                <h3>Aavakaya</h3>
+                <p>Traditional Mango Pickle</p>
+                <span class="price">₹750/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/tomato.png" alt="Tomato">
+                <h3>Tomato</h3>
+                <p>Fresh Tomato pickles</p>
+                <span class="price">₹400/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/lemon.jpeg" alt="Lemon">
+                <h3>Lemon</h3>
+                <p>Fresh Lemon Pickles</p>
+                <span class="price">₹400/Kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/mangopaste.png" alt="mango paste">
+                <h3>Mango paste</h3>
+                <p>Fresh mango stright from fram to jars</p>
+                <span class="price">₹640/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/gongura.jpeg" alt="Gongura paste">
+                <h3>Gongura paste</h3>
+                <p>Traditional Sorrel leaves Pickle</p>
+                <span class="price">₹520/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/ginger pickle.png" alt="Ginger Pickle">
+                <h3>ginger Pickle</h3>
+                <p>Pickle made of Ginger. Sweet and spicy at same time  </p>
+                <span class="price">₹520/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/garlic.png" alt="Garlic Pickle">
+                <h3>Garlic Pickle</h3>
+                <p>spicy and mouthwatering taste of garilc in every bite </p>
+                <span class="price">₹520/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/chicken.png" alt="chicken Pickle">
+                <h3>chicken Pickle</h3>
+                <p>spicy and mouthwatering taste of chicken in every bite </p>
+                <span class="price">₹1120/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/mutton.png" alt="mutton Pickle">
+                <h3>mutton Pickle</h3>
+                <p>spicy and mouthwatering mutton pieces in every bite  </p>
+                <span class="price">₹1600/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/prawns.png" alt="prawns Pickle">
+                <h3>prawns Pickle</h3>
+                <p>spicy and mouthwatering prawns pieces in every bite  </p>
+                <span class="price">₹1300/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/crabs.png" alt="crabs Pickle">
+                <h3>crab Pickle</h3>
+                <p>spicy and mouthwatering whole crabs...   </p>
+                <span class="price">₹1400/kg</span>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Bojjaganapaa Pickles. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
